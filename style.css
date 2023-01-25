@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.myDark{
+    background: #23232e;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 30px auto;
+}
+p{
+    margin: 20px auto;
+    font-size: 18px;
+}
+.cont{
+    text-align: center;
+    margin: 50px 25%;
+}
+.logo{
+    width: 8%;
+    margin: 50px auto;
+}
+.dn{
+    padding: 5px;
+    border: 1.7px solid #fff;
+    border-radius: 100%;
+    font-size: 40px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+.row{
+    width: 100%;
+    overflow: hidden;
+}
+.row .myCol{
+    text-align: left;
+    width: 31%;
+    float: left;
+    margin: 5px 1%;
+}
+.my-work .myCol{
+    text-align: center;
+}
+.what .myCol h4, .my-work h4{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.menu{
+    height: 70px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+	margin: 3px 15px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: capitalize;
+    transition: all ease .4s;
+}
+.menu ul li a:hover{
+    border-bottom: 5px solid #7b77c9;
+}
+.my-work{
+    text-align: center;
+}
+.my-work img, .photography img{
+    width: 93%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.myBTN{
+    background: #7b77c9;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+.myBTN:hover{
+    background: #5e5b9c;
+}
+.photography,.my-work,.subs{
+    overflow: hidden;
+}
+.subs .cont{
+    margin: 120px auto;
+}
+.subs .myInf{
+    font-size: 50px;
+}
+.subs p{
+    margin: 30px auto;
+}
+.subs input{
+    width: 25%;
+    display: inline;
+    padding: 8px 3px;
+    border-radius: 5px;
+}
+.subs .myBTN{
+    width: 13%;
+}
+footer .f-icons a{
+    text-decoration: none;
+}
+footer .f-icons i{
+    font-size: 40px;
+    color: gray;
+    margin: 20px;
+}
+
+
+/*
+    For Tablets
+*/
+@media all and (max-width:768px){
+    .logo{
+        width: 20%;
+        margin: 30px auto;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .cont{
+        margin: 30px 7%;
+    }
+    .row .myCol{
+        width: 47%;
+    }
+    .photography .row .myCol img{
+        margin: 0 auto;
+    }
+    .menu ul li a{
+        margin: 0 3px;
+    }
+    .subs input{
+        width: 35%;
+    }
+    .subs .myBTN{
+        width: 20%;
+    }
+}
+
+
+/*
+    For Android Devices
+*/
+@media all and (max-width:500px){
+    .what p, .photography .cont p{
+        text-align: justify;
+    }
+    .what h4{
+        text-align: center;
+    }
+    .row {
+        padding: 0 auto;
+    }
+    .row .myCol{
+        width: 95%;
+    }
+    .menu{
+        overflow: hidden;
+    }
+    .menu ul li{
+        margin: 6px 1px;
+    }
+    .subs input{
+        width: 75%;
+    }
+    .subs .myBTN{
+        width: 30%;
+    }
+    footer .f-icons i{
+        font-size: 25px;
+    }
+}
+
+
+/*
+    For Small Devices
+*/
+@media all and (max-width:320px){
+    .logo{
+        width: 27%;
+        margin: 30px auto;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 16px;
+    }
+    footer .f-icons i{
+        font-size: 20px;
+        margin: 10px;
+    }
+}
+
+
+/*
+    For Old (Button Phone) Devices
+*/
+@media all and (max-width:240px){
+    .logo{
+        width: 20%;
+        margin: 16px auto;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
